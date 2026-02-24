@@ -1,0 +1,15 @@
+{
+  "deal_name": "Acme Manufacturing Annual Review",
+  "analyst_name": "Jordan Lee",
+  "deal_type": "C&I",
+  "request_amount": 2500000,
+  "borrower": {
+    "legal_name": "Acme Manufacturing LLC",
+    "industry": "Industrial Components"
+  },
+  "proposed_terms": {
+    "facility_type": "Revolver",
+    "term_months": 12,
+    "interest_rate": 0.0825
+  }
+}

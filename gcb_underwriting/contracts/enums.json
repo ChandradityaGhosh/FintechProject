@@ -1,0 +1,6 @@
+{
+  "deal_types": ["C&I", "CRE", "OwnerOccupiedCRE", "ABL", "GuarantorSupported"],
+  "rule_severity": ["HARD_FAIL", "EXCEPTION", "WARNING"],
+  "decision": ["APPROVE", "APPROVE_WITH_EXCEPTIONS", "DECLINE", "INCOMPLETE"],
+  "criticality": ["Critical", "Moderate", "Minor"]
+}

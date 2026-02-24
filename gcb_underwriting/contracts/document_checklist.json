@@ -1,0 +1,53 @@
+{
+  "version": "2026-01-01",
+  "items": [
+    {
+      "id": "borrower_financials_3yr",
+      "name": "Borrower financial statements (3 years)",
+      "required_for_deal_types": ["C&I", "CRE", "OwnerOccupiedCRE"],
+      "criticality": "Critical"
+    },
+    {
+      "id": "borrower_financials_interim",
+      "name": "Borrower interim financial statements",
+      "required_for_deal_types": ["C&I", "CRE", "OwnerOccupiedCRE"],
+      "criticality": "Critical"
+    },
+    {
+      "id": "tax_returns",
+      "name": "Tax returns",
+      "required_for_deal_types": ["C&I", "CRE", "OwnerOccupiedCRE"],
+      "criticality": "Moderate"
+    },
+    {
+      "id": "ar_ap_inventory",
+      "name": "A/R aging, A/P aging, inventory reports",
+      "required_for_deal_types": ["C&I", "ABL"],
+      "criticality": "Moderate"
+    },
+    {
+      "id": "rent_roll_and_property_financials",
+      "name": "Rent roll and property financials",
+      "required_for_deal_types": ["CRE", "OwnerOccupiedCRE"],
+      "criticality": "Critical"
+    },
+    {
+      "id": "appraisal",
+      "name": "Appraisal",
+      "required_for_deal_types": ["CRE", "OwnerOccupiedCRE"],
+      "criticality": "Critical"
+    },
+    {
+      "id": "pfs_and_personal_tax_returns",
+      "name": "Personal financial statements and personal tax returns",
+      "required_for_deal_types": ["GuarantorSupported"],
+      "criticality": "Moderate"
+    },
+    {
+      "id": "debt_schedule_notes",
+      "name": "Existing debt schedules and notes",
+      "required_for_deal_types": ["C&I", "CRE", "OwnerOccupiedCRE", "GuarantorSupported"],
+      "criticality": "Minor"
+    }
+  ]
+}

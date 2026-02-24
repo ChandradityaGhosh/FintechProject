@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "bank": "GCB",
+    "version": "2026-01-01",
+    "owner": "Credit Policy",
+    "notes": "PR1 scaffold policy file; rules will be expanded in PR3."
+  },
+  "rules": []
+}
