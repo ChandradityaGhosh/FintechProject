@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "bank": "GCB",
+    "version": "2026-01-01",
+    "owner": "Credit Policy",
+    "notes": "Example policy rules for PR1 scaffold."
+  },
+  "rules": [
+    {
+      "rule_id": "example_dscr_rule",
+      "rule_type": "THRESHOLD",
+      "metric": "DSCR.business",
+      "operator": ">=",
+      "threshold": 1.2,
+      "severity": "EXCEPTION",
+      "reason_code": "DSCR_BELOW_TARGET",
+      "message_template": "Business DSCR below policy target of 1.20x.",
+      "evidence_fields": ["DSCR.business"]
+    }
+  ]
+}

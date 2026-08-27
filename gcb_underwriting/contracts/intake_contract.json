@@ -1,0 +1,25 @@
+{
+  "contract_name": "gcb_intake_contract",
+  "version": "2026-01-01",
+  "required_fields": [
+    {"id": "deal_name", "type": "string", "section": "deal_overview", "required": true},
+    {"id": "analyst_name", "type": "string", "section": "deal_overview", "required": true},
+    {"id": "deal_type", "type": "enum", "enum_ref": "deal_types", "required": true},
+    {"id": "request_amount", "type": "number", "section": "loan_terms", "required": true}
+  ],
+  "sections": ["Business", "CRE", "Guarantor", "Global", "BorrowingBase"],
+  "computed_fields": [
+    "dscr.business",
+    "dscr.cre",
+    "dscr.global",
+    "ltv.total",
+    "borrowing_base.net_eligible"
+  ],
+  "input_fields": [
+    "financials",
+    "collateral",
+    "existing_debt",
+    "guarantors",
+    "proposed_terms"
+  ]
+}
